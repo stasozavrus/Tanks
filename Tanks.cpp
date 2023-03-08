@@ -312,7 +312,7 @@ int main()
             player.move(0, speed * deltaTime);
 
         }
-        if (Keyboard::isKeyPressed(Keyboard::Space) && timeToShoot <= 0) {
+        if ((Keyboard::isKeyPressed(Keyboard::Space) || Mouse::isButtonPressed(Mouse::Left)) && timeToShoot <= 0) {
             timeToShoot = timeBtwnShoot;
             Vector2f bulletPosition = player.getPosition();
             Vector2f bulletDirection = { sin(player.getRotation() * 3.14159265f / 180.f), -cos(player.getRotation() * 3.14159265f / 180.f) };
