@@ -154,7 +154,7 @@ int main()
         cout << "Failed to load bg" << endl;
         return 1;
     }
-    if (!wallTexture.loadFromFile("..\\Assets\\Sprites\\Circle_tiles.png")) {
+    if (!wallTexture.loadFromFile("..\\Assets\\Sprites\\border.png")) {
         cout << "Failed to load wall" << endl;
         return 1;
     }
