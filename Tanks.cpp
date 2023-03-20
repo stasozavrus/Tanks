@@ -1,5 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include <cmath>
+#include <memory>
 
 int main()
 {
