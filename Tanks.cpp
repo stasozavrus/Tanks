@@ -67,7 +67,7 @@ int main()
             direction_.x = direction.x / length;
             direction_.y = direction.y / length;
             enemyTexture_ = std::make_shared<Texture>();
-            if (!enemyTexture_->loadFromFile("Assets\\Sprites\\Enemytank.png")) {
+            if (!enemyTexture_->loadFromFile("Assets/Sprites/Enemytank.png")) {
                 cout << "Failed to load enemy texture" << endl;
             }
             sprite_.setTexture(*enemyTexture_);
@@ -144,19 +144,19 @@ int main()
     window.setFramerateLimit(60);
     Texture playerTexture, background, wallTexture;
     Font font;
-    if (!playerTexture.loadFromFile("Assets\\Sprites\\tank.png")) {
+    if (!playerTexture.loadFromFile("Assets/Sprites/tank.png")) {
         cout << "Failed to load player texture" << endl;
         return 1;
     }
-    if (!background.loadFromFile("Assets\\Sprites\\bg.png")) {
+    if (!background.loadFromFile("Assets/Sprites/bg.png")) {
         cout << "Failed to load bg" << endl;
         return 1;
     }
-    if (!wallTexture.loadFromFile("Assets\\Sprites\\border.png")) {
+    if (!wallTexture.loadFromFile("Assets/Sprites/border.png")) {
         cout << "Failed to load wall" << endl;
         return 1;
     }
-    if (!font.loadFromFile("Assets\\Font\\ok.ttf")) {
+    if (!font.loadFromFile("Assets/Font/ok.ttf")) {
         cout << "Failed to load font" << endl;
         return 1;
     }
