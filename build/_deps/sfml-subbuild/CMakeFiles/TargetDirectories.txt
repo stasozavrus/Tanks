@@ -1,0 +1,3 @@
+/home/stasozavrus/Programs/VisualCode/Tanks/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/home/stasozavrus/Programs/VisualCode/Tanks/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+/home/stasozavrus/Programs/VisualCode/Tanks/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

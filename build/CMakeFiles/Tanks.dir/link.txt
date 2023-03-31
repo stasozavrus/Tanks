@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Tanks.dir/Tanks.cpp.o -o Tanks  -Wl,-rpath,/home/stasozavrus/Programs/VisualCode/Tanks/build/_deps/sfml-build/lib: _deps/sfml-build/lib/libsfml-graphics-d.so.2.5.1 _deps/sfml-build/lib/libsfml-window-d.so.2.5.1 _deps/sfml-build/lib/libsfml-system-d.so.2.5.1 
